@@ -1,0 +1,225 @@
+
+/* section one */
+
+.container-fluid{
+  padding: 5% 15%;
+}
+
+#title{
+  background-color: #ff4c68;
+
+}
+
+  .navbar-brand{
+  font-family:"Ubuntu";
+  font-size: 2.5rem;
+  }
+
+  .download_btn{
+    margin: 3% 3% 5% 0%;
+  }
+
+  .nav-item{
+    padding: 0 5px;
+  }
+
+  .nav-link{
+    font-size: 1.2rem;
+  }
+
+  .first_pic{
+    margin-top: 4%;
+    transform: rotate(20deg);
+    position: absolute;
+    left: 100px;
+
+    z-index: 1;
+  }
+
+  @media (max-width:1250px) {
+    .first_pic{
+      position: static;
+      z-index: 0;
+      margin: 10px;
+      transform: rotate(0);
+    }
+
+    #title{
+      text-align: center;
+    }
+
+  }
+/* section two */
+
+
+#features{
+  background-color: white;
+  padding: 7% 15%;
+  position: relative;
+
+
+}
+.row_data{
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  font-size: 1.2rem;
+}
+
+.data{
+  color: grey;
+}
+
+.feat_img{
+  font-size: 2.8rem;
+  margin-bottom: 2%;
+  color: #ffb0b0;
+}
+
+.feat_img:hover{
+  color: #ff4c68;
+}
+
+
+/* section three */
+
+
+#testimonials{
+
+
+  background-color:  #ff4c68;
+  text-align: center;
+}
+#carouselExampleInterval{
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+.carousel-item{
+  padding: 3% 15%;
+
+}
+.test_img{
+
+  border-radius: 100%;
+
+  width: 200px;
+  height: 200px;
+}
+
+
+
+/* section four */
+
+#press{
+  text-align: center;
+  background-color:  #ff4c68;
+  padding:50px 0 70px 0;
+
+}
+.press_img{
+  width: 15%;
+  margin: 0 10px 0 10px;
+
+
+}
+
+/* section five */
+
+
+#pricing{
+
+  padding: 50px 100px 100px 100px;
+  text-align: center;
+}
+.headline{
+  /* text-align: center; */
+
+    margin: 50px;
+
+
+}
+
+.card{
+  margin: 10px;
+}
+
+/* section six */
+#cta{
+  padding-top: 50px;
+  padding-bottom: 10px;
+  background-color: #ff4c68;
+  text-align: center;
+
+
+}
+
+/* <!-- Footer --> */
+
+#footer{
+  padding: 50px;
+
+  text-align: center;
+
+}
+.foot_img{
+  margin: 10px;
+}
+
+
+
+/* html elements */
+
+body{
+  margin:0;
+  padding: 0;
+}
+h1{
+ font-family:"Montserrat";
+ color: white;
+ font-size: 4rem;
+ line-height: 1.5;
+
+}
+
+
+
+
+
+
+h3{
+  font-size: 1.6rem;
+  font-family: "Montserrat-bold";
+  font-weight: bold;
+}
+
+
+
+
+h2{
+  color: white;
+  font-family:"Montserrat-bold";
+  font-weight: bolder;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+
+
+
+h3{
+  /* text-align: center; */
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+h4{
+  /* text-align: center; */
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+p{
+  text-align: center;
+}
